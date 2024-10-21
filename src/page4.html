@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bnhwng's HTML Ultimate Revision</title>
+  <link rel="icon" type="image/x-con" href="/resources/favicon.ico">
+  <style>
+    table,
+    tr,
+    td,
+    th {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 15px;
+    }
+
+    .page-section{
+      margin-top: 50px;
+    }
+
+    hr{
+      margin: 20px 0;
+    }
+
+    .div-elements{
+      width: 100%;
+      text-align: center;
+      height: 150px;
+      margin-bottom: 100px;
+    }
+
+    #myDummy{
+      background-color: lightblue;
+      width: 200px;
+      height: 150px;
+      /* Use this to manipulate the text to be in the center of the html element */
+      justify-content: center;
+      display: flex;
+      align-items: center;
+    }
+
+    .div-element-entry{
+      background-color: lightblue;
+      width: 33%;
+      float: left;
+      overflow: auto;
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="heading" style="text-align: center;">
+    <h1>BNHWNG's Ultimate Revision</h1>
+    <hr>
+  </div>
+
+  <div class="main-body" style="text-align: left;">
+
+    <h2>Exercises</h2>
+
+    <div class="exercises-1">
+      <h3>Exercises 1: Create a table that summarise all the concepts that you have revised in HTML upto this point</h3>
+      <table>
+        <tr>
+          <th>Concept</th>
+          <th>Description</th>
+          <th>Link</th>
+        </tr>
+        <tr>
+          <td>Table</td>
+          <td>How to create table and all the related attribute</td>
+          <td><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Link</a></td>
+        </tr>
+        <tr>
+          <td>Link</td>
+          <td>How to attach link in HTML and all related attributes</td>
+          <td><a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Link</a></td>
+        </tr>
+        <tr>
+          <td>Heading</td>
+          <td>Create headings</td>
+          <td><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Link</a></td>
+        </tr>
+        <tr>
+          <td>Image</td>
+          <td>How attach images in HTML</td>
+          <td><a href="https://www.w3schools.com/html/html_images.asp">Link</a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="revision">
+    <div class="html-list">
+      <hr>
+      <h2><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">HTML Lists</a></h2>
+      <p>Syntax for list is ez: ol for numbered list or ul for dotted list declaration, li tag for list entries</p>
+      <ol>
+        <li>Milk</li>
+        <li>Coffee</li>
+        <li>Rice</li>
+      </ol>
+    </div>
+
+
+    <hr>
+    <div class="html-block">
+      <h2><a href="https://www.w3schools.com/html/html_blocks.asp">HTML Blocks</a></h2>
+      <p>Every HTML element has a default display value, depending on what type of element it is. Two most common
+        display values are block and inline</p>
+      <ul>
+        <li>A block level element starts on a new line, and the browser automatically add some space (margin) before and
+          after the element.</li>
+        <li>A block level element always take the full space that it was declared in. For instance if declared in a
+          global environment, it will stretchs to the most left and most right.</li>
+        <li> Two commonly used block elements are p and div.
+          <ul>
+            <li>The p element defines a paragraph in an HTML document.</li>
+            <li>The div element defines a division or a section in an HTML document.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+      
+    <hr>
+    <div class="inline-elements">
+      <h2><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Inline Elements</a></h2>
+      <ul>
+        <li>An inline element does not start on a new line</li>
+        <li>An inline element only takes up as much width as necessary.</li>
+      </ul>
+    </div>
+  </div>
+
+<hr>
+  <div class="div-elements">
+    <h2><a href="https://www.w3schools.com/html/html_div.asp">Div Element</a></h2>
+    
+    <div>
+    <div class="div-element-entry">
+      <h3>Hanoi</h3>
+      <p>Hanoi is the capital of Vietnam.</p>
+      <p>Hanoi has a rich culture and history.</p>
+    </div>
+    <div class="div-element-entry">
+      <h3>Saigon</h3>
+      <p>Saigon is the economy centre of Vietnam</p>
+      <p>Filled with skyscrapers, modern buildings and super cars.</p>
+    </div>
+    <div class="div-element-entry">
+      <h3>Da Nang</h3>
+      <p>Da Nang is the beauty of Vietnam.</p>
+      <p>Filled with white sand and the blue ocean and a trophical weather.</p>
+    </div>
+    </div>
+  </div>
+
+  <div class="html-classes">
+    <hr>
+    <h2><a href="">HTML Classes</a></h2>
+    <p>Classes is used to select certain elements with a specified classes in HTML</p>
+  </div>
+
+  <hr>
+  <div classes="html-id">
+    <h2><a href="https://www.w3schools.com/html/html_id.asp">HTML ID</a></h2>
+    <ul>
+      <li>The id attribute specifies a unique id for an HTMl element. The value of the id attribute must be unique within the HTML document</li>
+      <li>The id attribute can be used to manipulate the style of the element that has that unique id or use js to manipulate the behavior of the specific element.</li>
+      <li>The syntax to manipulate the element with the id is to use #myDummy for instance to manipulate html element that has id="myDummy'</li>
+      <li id="myDummy">
+        Hello
+      </li>
+      <li>THe differences betweenf classes and id is that classes can be used for multiple elements in an html document while id is unique</li>
+      <li>Id used as bookmark. for instance, <a href="./page3.html#table" target="_blank">Jump to Table</a></li>
+    </ul>
+  </div>
+  
+
+
+
+  <div class="page-section">
+    <hr>
+    <h3 style="text-align: center;">
+      <a href="./index.html">Page 1</a>, <a href="./page2.html">Page 2</a>, <a href="./page3.html">Page 3</a>, <a
+        href="./page4.html">Page 4</a>, <a href="./page5.html">Page 5</a>
+    </h3>
+  </div>
+
+
+</body>
+
+</html>

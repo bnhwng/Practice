@@ -17,6 +17,7 @@
     th,td{
       border-color:red;
       border-radius: 3px;
+      text-align: center;
     }
   </style>
 </head>
@@ -48,7 +49,7 @@
     </pre>
 
     <!-- HTML Tables -->
-     <hr>
+     <hr id="table">
      <h2>HTML <a href="https://www.w3schools.com/html/html_tables.asp">Tables</a></h2>
      <pre>Table is one of the important concept that needs to be revised
       <br><i style="color:red">Syntax is table, tr means table row, th means table heading, td means table data </i>
@@ -149,6 +150,68 @@
           <td>Example</td>
         </tr>
       </table>
+
+      <!-- Table Headers -->
+       <h2>Table Headers</h2>
+       <p>This section regards the syntax of table headers: table headers are defined with th elements
+        Each th elements represents a table cell.
+       </p>
+       <p>Example for horizontal table headers:</p>
+       <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>DOB</th>
+        </tr>
+        <tr>
+          <td>Ngoc Hung</td>
+          <td>Bui</td>
+          <td>15-02-2001</td>          
+        </tr>
+        <tr>
+          <td>Y Nhi</td>
+          <td>Mai</td>
+          <td>26-03-2001</td>
+        </tr>
+       </table>
+
+       <p>Example for vertical table headers:</p>
+       <table>
+        <tr>
+          <th>First Name</th>
+          <td>Ngoc Hung</td>
+          <td>Y Nhi</td>
+        </tr>
+        <tr>
+          <th>Last Name</th>
+          <td>Bui</td>
+          <td>Mai</td>
+        </tr>
+        <tr>
+          <th>Age</th>
+          <td>23</td>
+          <td>23</td>
+        </tr>
+       </table>
+
+       <p>Example for multiple column headers</p>
+       <p>We use colspan attribute for th element. Here we used colspan="2" for Full Name th element</p>
+       <table>
+        <tr>
+          <th colspan="2">Full Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Ngoc Hung</td>
+          <td>Bui</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Y Nhi</td>
+          <td>Mai</td>
+          <td>23</td>
+        </tr>
+       </table>
       
 
 
@@ -160,7 +223,7 @@
    <!-- Pages section -->
     <hr>
     <h3 style="text-align: center;">
-      <a href="./index.html">Page 1</a>, <a href="./page2.html">Page 2</a>, Page 3
+      <a href="./index.html">Page 1</a>, <a href="./page2.html">Page 2</a>, Page 3, <a href="./page4.html">Page 4</a>
     </h3>
     
   
