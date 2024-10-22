@@ -6,3 +6,6 @@ This is the most productive of revision that I have ever done for HTML. I got to
 
 14/10/2024 
 Today I get through in details regarding HTML Tables and and Favicon. One of the important concept is table. 
+
+22/10/2024
+migrate the repo to main account bnhwng for github contribution tracking
