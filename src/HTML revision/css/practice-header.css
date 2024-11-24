@@ -4,6 +4,14 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 0px 0.8px 0px;
+  z-index: 100;
 }
 
 /* header start container */
@@ -104,3 +112,19 @@
   border-radius: 20px;
 }
 
+
+.noti-container{
+  position: relative;
+}
+
+.noti-count{
+  font-family: "Roboto", Arial;
+  background-color: red;
+  padding: 2px 5px 2px 5px;
+  border-radius: 25px;
+  font-size:11px;
+  color:white;
+  top:-2px;
+  right:-5px;
+  position: absolute;
+}
